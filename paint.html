@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="stylepaint.css" type="text/css" rel="stylesheet"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="paint.js"></script>
+</head>
+<body>
+  <a href="index.html">Bubbles</a>
+  <h1>Kev's p5js Playground</h1>
+   <div class="container">
+       <h2>Kev Paint</h2>
+        <button onClick="sizeUp()">Size +</button>
+        <button onClick="sizeDown()">Size -</button>
+        <button onClick="colourRed()">Red</button>
+        <button onClick="colourGreen()">Green</button>
+        <button onClick="colourBlue()">Blue</button>
+        <button onClick="colourWhite()">White</button>
+        <button onClick="colourBlack()">Black</button>
+        <button onClick="clearScreen()">Clear Canvas</button>
+        <p class="currentSize"><script>newSize();</script></p>
+        <p class="currentColour"><script>newColour();</script></p>
+        <div class="colshow"></div>
+        
+    </div>
+</body>
+</html>
