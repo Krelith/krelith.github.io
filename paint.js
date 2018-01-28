@@ -2,7 +2,7 @@ function Marker(size, clr){
     this.x = mouseX;
     this.y = mouseY;
     this.size = size;
-    this.clr = clr;
+    this.clr = clr; //colour
     
     this.show = function() {
         fill(this.clr);
