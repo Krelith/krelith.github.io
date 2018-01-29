@@ -16,7 +16,6 @@ function Rectangle(x, y, w, h, t, r, g, b){
         this.r = Math.floor((Math.random() * 255) + 1);
         this.g = Math.floor((Math.random() * 255) + 1);
         this.b = Math.floor((Math.random() * 255) + 1);
-        
     }
 }
 
@@ -39,6 +38,19 @@ rects.push(new Rectangle(-110, -670, 20, 80, 45, 255, 255, 255));
 rects.push(new Rectangle(-110, -700, 30, 280, 45, 255, 255, 255));
 rects.push(new Rectangle(240, -500, 30, 160, -50, 255, 255, 255));
 rects.push(new Rectangle(530, -100, 30, 110, -50, 255, 255, 255));
+rects.push(new Rectangle(480, -400, 30, 110, 10, 255, 255, 255));
+rects.push(new Rectangle(-220, -610, 30, 80, 80, 255, 255, 255));
+rects.push(new Rectangle(320, -650, 30, 120, -50, 255, 255, 255));
+rects.push(new Rectangle(720, 100, 30, 120, -70, 255, 255, 255));
+rects.push(new Rectangle(350, 680, 30, 260, -35, 255, 255, 255));
+rects.push(new Rectangle(-420, 670, 30, 120, -60, 255, 255, 255));
+rects.push(new Rectangle(850, 110, 30, 120, 110, 255, 255, 255));
+rects.push(new Rectangle(380, 750, 30, 230, -60, 255, 255, 255));
+rects.push(new Rectangle(520, 880, 25, 100, 0, 255, 255, 255));
+rects.push(new Rectangle(-240, 1000, 20, 70, -40, 255, 255, 255));
+rects.push(new Rectangle(-1020, 130, 20, 70, -70, 255, 255, 255));
+rects.push(new Rectangle(-1120, -430, 20, 170, -30, 255, 255, 255));
+rects.push(new Rectangle(-270, -1130, 20, 70, -60, 255, 255, 255));
 
 function setup(){
     createCanvas(screen.width, screen.height);
