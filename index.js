@@ -53,9 +53,11 @@ rects.push(new Rectangle(-1120, -430, 20, 170, -30, 255, 255, 255));
 rects.push(new Rectangle(-270, -1130, 20, 70, -60, 255, 255, 255));
 
 function setup(){
-    createCanvas(screen.width, screen.height);
+    createCanvas(screen.width/2, screen.height);
     angleMode(DEGREES);
     frameRate(5);
+    canvas = document.getElementsByTagName('canvas');
+    showMenu = false;
 }
 
 function draw(){

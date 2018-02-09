@@ -12,3 +12,24 @@ body
     width: 100%;
     margin: 0 auto;
 }
+
+nav
+{
+    background-color: #333;
+    height: 80px;
+    border: 3px #fff solid;
+}
+
+nav ul li
+{
+    display: inline-block;
+    height: 50px;
+    width: 80px;
+    line-height: 50px;
+    border: 2px #fff solid;
+}
+
+a, a:visited
+{
+    color: #fff;
+}
