@@ -2,8 +2,12 @@ let clear = false;
 let cloudy = false;
 let storm = false;
 
+function setup(){
+    createCanvas(600, 600);
+}
+
 function preload(){
-    let url = "http://api.openweathermap.org/data/2.5/weather?q=plymouth,uk&units=metric&APPID=842fbb38545fe9578a86fd7ce9dfb7f1";
+    let url = "https://api.openweathermap.org/data/2.5/weather?q=plymouth,uk&units=metric&APPID=842fbb38545fe9578a86fd7ce9dfb7f1";
     httpGet(url, 'jsonp', false, function(response){
         let result = response.weather[0].id;
         console.log(result);
@@ -17,10 +21,6 @@ function preload(){
             storm = true;
         }
     });
-}
-
-function setup(){
-    createCanvas(600, 600);
 }
 
 function draw(){
